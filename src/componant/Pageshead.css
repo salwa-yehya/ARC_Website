@@ -1,0 +1,106 @@
+.Section{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.Section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#7b99bb , #1d3058);
+    border-radius: 0 0 10% 100%/0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+.Section .content{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+.Section .content h1{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+    color :#fff;
+    text-transform: uppercase;
+}
+.Section .content p{
+   margin-top: 1rem;
+    font-weight: 200;
+    font-size: 20px;
+    color :#fff;
+   
+}
+.Container{
+    height: 100vh;
+    margin : 1em 0;
+    width: 90%;
+     /* display: flex;
+   justify-content: space-between; */
+}
+.Title{
+    font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  /* left: -43%; */
+  top :-20%;
+  /* margin-left :30px; */
+  color :#fff;
+  text-transform: uppercase;
+}
+.SubTitle{
+    font-weight: 500;
+    font-size: 20px;
+    /* padding-bottom: 80px; */
+     position: relative;
+    /* left: -43%; */
+}
+.HeroTxt {
+    display: flex;
+    width :100%;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    vertical-align:top;
+    gap: 40px;
+    padding-top: 0px; /* Adjust the padding-top value here;*/
+}
+.Img{
+    width:100%;
+    height:35vh;
+}
+.H3{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #6c757d;
+    margin: 0.25em 0;
+    position:relative;
+}
+.H2{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #6c757d;
+    margin: 0.25em 0;
+}
+.P{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    margin: 0.25em 0;
+    position:relative;
+}
+.Paragraph{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    margin: 0.25em 0;
+}

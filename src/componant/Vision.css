@@ -1,0 +1,54 @@
+.Vision-distributed {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: left; */
+    padding: 50px 50px 60px 50px;
+    overflow-y: hidden;
+    display: flex;
+    gap: 5%;
+
+}
+
+.Vision-distributed .left-side .right-side {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Left */
+.Vision-distributed .left-side {
+    width: 50%;
+}
+
+.Vision-distributed .left-side .title p {
+    line-height: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.Vision-distributed .left-side .description p {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 2rem 0rem;
+}
+
+/* Right */
+.Vision-distributed .right-side {
+    width: 50%;
+}
+
+.Vision-distributed .right-side .title p {
+    line-height: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.Vision-distributed .right-side .description p {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 2rem 0rem;
+}

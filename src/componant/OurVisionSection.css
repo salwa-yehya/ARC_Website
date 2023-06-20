@@ -1,0 +1,11 @@
+.vision-sectiion{
+    width: 100%;
+    background-color: #fff;
+     display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+.vision-image img{
+    width: 70%;
+    margin-right: 11rem;
+}
