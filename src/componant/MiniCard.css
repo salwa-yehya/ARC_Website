@@ -1,21 +1,20 @@
-body {
-  margin: 0;
-  /* height: 100vh; */
-  display: grid;
-  /* place-items: center; */
-  overflow: hidden;
- 
+
+.Heading h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 2rem 0;
+  color: #1d3058;
+  text-align: center;
 }
 
-.cards {
+.project-cards {
   display: flex;
   align-items: center;
-  justify-content: center;           /*s*/
-  width: 1400px;                     /*s*/
-
+  justify-content: center;           
+  margin-top: 4rem;
 }
 
-.card {
+.project-card {
   max-width:17rem ;
   background: white;
   border-radius: 1rem;
@@ -24,16 +23,13 @@ body {
   -moz-box-shadow: 5px 5px 15px 2px  #5a5858 ;            
   -webkit-box-shadow: 5px 5px 15px  2px  #5a5858;      
   transition: 0.2s;
-  height: 60%;                         /*s*/
-  /* vertical-align: center; */        /*s*/
-  /* margin-left: -3rem; */            /*s*/
 }
-.card:not(:first-child) {
+.project-card:not(:first-child) {
   margin-left: -3rem;
 }
 
-.card:hover,
-.card:focus-within {
+.project-card:hover,
+.project-card:focus-within {
   transform: translateY(-1rem) rotate(-5deg);
   .card {
     transform: translateX(4rem);
@@ -43,21 +39,21 @@ body {
 
 }
 /* s */
-.card-image{
+.project-card-image{
   border-radius: 7px;
 }
-.card-title{
+.project-card-title{
   font-weight: 600;
   font-size: 1.5rem;
   margin-top:10px ;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.card-title:hover{
+.project-card-title:hover{
   font-size: 1.55rem;
 }
 
-.card-description{
+.project-card-description{
   margin-top:10px ;
 }
 /* .video-container {
@@ -113,7 +109,7 @@ body {
 }
 
 .button-85 {
-  margin: 2em;
+  margin: 2em 2em 0 2em;
   padding: 0.6em 2em;
   border: none;
   outline: none;

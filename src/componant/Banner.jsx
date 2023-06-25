@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Link } from 'react-router-dom';
 
@@ -12,18 +12,19 @@ const Section = styled.div`
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
     width: 100%;
+    height :100%
   }
 `;
 
 const Container = styled.div`
-  height: 100vh;
+  height: 100vh;  
   width: 90%;
   display: flex;
   justify-content: space-between;
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
-    width : 100%;
+  
   }
 `;
 

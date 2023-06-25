@@ -19,7 +19,7 @@
 *::after {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family : satoshi ;
+    /* font-family : satoshi ; */
 }
 
 /* Reapply the pointer cursor for anchor tags */

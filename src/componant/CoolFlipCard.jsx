@@ -1,7 +1,7 @@
 import React from 'react';
-import './MiniCard.css'; // create this file and import it
+import './CoolFlipCard.css'; // create this file and import it
 
-const MiniCard = ({ image, title, description }) => {
+const CoolFlipCard = ({ image, title, description }) => {
   return (
     <div className="card">
       <img src={image} alt={title} className="card-image"/>
@@ -11,4 +11,4 @@ const MiniCard = ({ image, title, description }) => {
   );
 };
 
-export default MiniCard;
+export default CoolFlipCard ;

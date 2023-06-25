@@ -8,17 +8,19 @@ import Banner from '../componant/Banner'
 import AboutTeam from '../componant/AboutTeam'
 import HomeService from '../componant/HomeService'
 import GetStarted from '../componant/GetStarted'
+import MiniCard from '../componant/MiniCard'
 
 const Home = () => {
   return (
-    <div>
+    <>
        <Menu />
        <Banner/>
        <HomeService/>
        <AboutTeam/>
+       <MiniCard/>
       <GetStarted/>
        <Footer/>
-    </div>
+    </>
   )
 }
 

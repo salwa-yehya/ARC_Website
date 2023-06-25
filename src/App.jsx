@@ -24,7 +24,14 @@ const Container = styled.div`
   overflow-y: auto;
   scrollbar-width: none;
   &::-webkit-scrollbar{
-    display: none;
+    display: block;
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    flex-direction: column;
+    width: 100%;
+     height :auto ;
+     scroll-behavior: scroll;
+     overflow-y: scroll;
   }
 `;
 

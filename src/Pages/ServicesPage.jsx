@@ -11,7 +11,7 @@ const ServicesPage = () => {
           <Menu/>
           <Pageshead pageTitle="Services" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, expedita!"/>
           <OurServices/>
-          {/* <Services/> */}
+     
           <Footer/>
     </div>
   )
