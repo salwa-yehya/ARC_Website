@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './MiniCard.css';
+import './Style.css'
 
 const MiniCard = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Vision.css'
+import './Style.css'
 
 const Vision = () => {
     return (

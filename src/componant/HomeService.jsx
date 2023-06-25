@@ -1,10 +1,10 @@
 import React from 'react'
-import './HomeService.css'
+import './Style.css'
 import { CgWebsite } from 'react-icons/cg';
 import { ImMobile } from 'react-icons/im';
 import { BiStore } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import { color } from 'd3';
+
 
 const HomeService = () => {
     return (

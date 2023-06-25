@@ -17,6 +17,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Container = styled.div`
   height: 100vh;
+  width :100%;
   background-color: #e6eff8;
   color: #1d3058;
   scroll-snap-type:y mandatory;

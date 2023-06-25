@@ -1,5 +1,5 @@
 import React from 'react'
-import './OurVisionSection.css'
+import './Style.css'
 const OurVisionSection = () => {
     return (
         <div id='vision-sectiion'>

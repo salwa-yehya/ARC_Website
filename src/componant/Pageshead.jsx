@@ -1,5 +1,5 @@
 import React from 'react'
-import './Pageshead.css'
+import './Style.css'
 
 const Pageshead = (props) => {
 

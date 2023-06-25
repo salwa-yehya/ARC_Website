@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Footer.css"
+import './Style.css'
 import { GoMarkGithub } from "react-icons/go";
 import { ImLocation } from "react-icons/im";
 import { CgMail } from "react-icons/cg";
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
           <div>
             <CgMail className='i' />
-            <p>PARC-Technologie@gmail.com</p>
+            <p>PARC-Technologies@gmail.com</p>
           </div>
         </div>
         <div className="footer-right">
